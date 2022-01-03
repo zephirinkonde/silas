@@ -1,0 +1,322 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0px;
+    right: 0;
+    font-family : "Nunito" ;
+}
+
+nav{
+    height: 110px;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, inset 16px 50px 1px 50px rgba(62,158,255,0); 
+    box-shadow: 0px 10px 13px -7px #000000, inset 16px 50px 1px 50px rgba(62,158,255,0);
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+nav .logo i{
+    color: black;
+    font-size: 35px;
+    padding: 0 100px;
+    line-height: 80px;
+}
+
+nav .Onglets a{
+    text-decoration: none;
+    margin-right: 20px;
+    line-height: 80px;
+    padding: 7px 10px;
+    font-size: 20px;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    flex-wrap: wrap;
+    
+}
+
+.Onglets a.active,a:hover{
+    border: 1px solid black;
+    transition: .5s;
+}
+
+.Onglets a:hover{
+    border: 1px solid black;
+    transition: .5s;
+}
+
+header{
+    color: white;
+    justify-content: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 120px;
+    font-family: sans-serif;
+    height: 500px;
+    width: 100%;
+    background: url("headway-537308-unsplash.jpg")no-repeat center ;
+    background-size: cover;
+}
+
+header h3{
+    margin-top: 20%;
+   font-size: 20px;
+   
+    
+}
+
+header p{
+    margin: 0 8%;
+    font-size: 20px;
+    justify-content: center;
+    text-align: justify;
+    display: flex;
+    
+    
+    
+}
+
+article{
+    margin-top: 50px;
+}
+section {
+    width:100% ;
+    min-height: 300px;
+    
+}
+
+article h2{
+    text-transform: uppercase;
+}
+
+.sec{
+    margin: 0px 10%;
+    
+}
+
+.left{
+    float: left;
+    width:30% ;
+}
+
+.right{
+    float: left;
+    width: 70%;
+
+}
+
+.cleft, .cright, .sousleft, .sousright{
+    width: 50%;
+    float: left;
+}
+
+.Parcours{
+    border-top: 5px solid #f1dc4f;
+    background-color: rgba(241, 211, 79, 0.15);
+    margin-bottom: 0px;
+}
+
+.exp{
+    margin-top: 25px;
+    background-color: rgba(241, 211, 79, 0.15);
+}
+
+.exp h2{
+    margin: 0 10%;
+    margin-top: 0px;
+}
+
+.Competences{
+    
+    border-top: 5px solid #00706b;
+    background-color: rgba(000, 112, 192 , 0.15);
+}
+
+.exp{
+    
+    background-color: rgba(241, 211, 79, 0.15);
+
+}
+
+.Par{
+    margin-top: 60px;
+}
+
+
+.header-a{
+    padding-top: 120px; 
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 15px ;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+.header-i{
+    padding-top: 120px;
+}
+
+.header-m{
+    padding-top: 120px;
+    margin: 0 10%;
+}
+
+footer{
+    margin-top: 0px;
+    font-size: 20px;
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#00706b ;
+    border-top: 2px solid #00706b;
+    color: black;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, inset 16px 50px 1px 50px rgba(62,158,255,0); 
+    box-shadow: 0px 10px 13px -7px #000000, inset 16px 50px 1px 50px rgba(62,158,255,0);
+}
+
+footer .droite{
+    display: flex;
+    text-decoration: none;
+
+}
+
+footer .droite p{
+    font-size: 25px;
+    margin-top: 0px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:909px) {
+    nav{
+        height: 23%;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        
+
+    }
+
+    h1{
+        font-size: 25px;
+        margin: 20px 0px 0px 0px ;
+    }
+
+    article h2{
+        font-size: 15px;
+        margin: 0px 0px 0px 0px ;
+    }
+
+    nav .logo i{
+        font-size: 25px;
+        padding: 10px;
+       margin-bottom: 90px;
+        text-align: center;
+        justify-content: center;
+        
+    }
+
+    nav .Onglets a{
+        
+        line-height:  80px;
+        font-size: 17px;
+        margin-right: 1px;
+        padding: 3px;
+       
+       
+       
+    }
+
+    .Onglets a.active,a:hover{
+      
+        font-size: 15px;
+    }
+
+    header{
+        height: 320px;
+        width: 100%;
+        padding-top: 90px;
+       
+    }
+
+    header p{
+        margin-top: 20px;
+        font-size: 17px;
+        text-align: justify;
+        justify-content: center;
+        
+        
+    }
+
+    article{
+        font-size:10px;
+        padding: 5px;
+
+    }
+
+    .header-a{
+       
+        font-size: 15px;
+        padding-top: 120px;
+        align-items: center;
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .header-i{
+        margin-top: 50px;
+        padding-bottom: 200px;
+    }
+
+    .header-i img{
+       width: 100%; 
+    }
+
+    .header-m{
+        
+        font-size: 15px;
+        padding-top: 140px;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    footer{
+        font-size: 15px;
+        display: flex;
+    }
+
+    footer .droite{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 909px) {
+    
+}
